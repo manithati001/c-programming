@@ -1,0 +1,24 @@
+// c program to find the modulo division of two numbers
+
+#include<stdio.h>
+int main(){
+	int n1,n2;
+	float remainder;
+	printf("Enter the first number:");
+	scanf("%d",&n1);
+	printf("Enter the second number:");
+	scanf("%d",&n2);
+	if (n2==0){
+		printf("Error! modulodivision is not possible");
+	}
+	else{
+		remainder=n1%n2;
+		printf("Modulo division of two numbers =%f",remainder);
+	}
+	return 0;
+}
+
+output:
+Enter the first number:4
+Enter the second number:2
+Modulo division of two numbers =0.000000
