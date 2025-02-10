@@ -1,0 +1,15 @@
+// c program to find the square of a given number
+
+#include<stdio.h>
+int main(){
+	int n,square;
+	printf("Enter the number:");
+	scanf("%d",&n);
+	square=n*n;
+	printf("Square of a number =%d",square);
+	return 0;
+}
+
+output:
+Enter the number:2
+Square of a number =4
