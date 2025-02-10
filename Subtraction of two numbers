@@ -1,0 +1,18 @@
+// c program for subtraction of two numbers
+
+#include<stdio.h>
+int main(){
+	int n1,n2,difference;
+	printf("Enter the first number:");
+	scanf("%d",&n1);
+	printf("Enter the second number:");
+	scanf("%d",&n2);
+	difference=n1-n2;
+	printf("Subtraction of two numbers =%d",difference);
+	return 0;
+}
+
+output:
+Enter the first number:4
+Enter the second number:3
+Subtraction of two numbers =1
