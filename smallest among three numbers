@@ -1,0 +1,28 @@
+// c program to find the smallest among three numbers
+
+#include<stdio.h>
+int main(){
+	int n1,n2,n3;
+	printf("Enter the first number:");
+	scanf("%d",&n1);
+	printf("Enter the second number:");
+	scanf("%d",&n2);
+	printf("Enter the third number:");
+	scanf("%d",&n3);
+	if(n1<=n2 && n1<=n3){
+		printf("Smallest number =%d",n1);
+	}
+	else if(n2<=n1 && n2<=n3){
+		printf("Smallest number =%d",n2);
+	}
+	else{
+		printf("Smallest number= %d",n3);
+	}
+	return 0;
+}
+
+output:
+Enter the first number:3
+Enter the second number:4
+Enter the third number:5
+Smallest number =3
