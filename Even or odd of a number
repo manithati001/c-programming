@@ -1,0 +1,19 @@
+// c program to find the even or odd of a number
+
+#include<stdio.h>
+int main(){
+	int n;
+	printf("Enter the number:");
+	scanf("%d",&n);
+	if(n%2==0){
+		printf("Even number");
+	}
+	else{
+		printf("Odd number");
+	}
+	return 0;
+}
+
+output;
+Enter the number:3
+Odd number
