@@ -1,0 +1,24 @@
+// c program to find division of two numbers
+
+#include<stdio.h>
+int main(){
+	int n1,n2;
+	float quotient;
+	printf("Enter the first number:");
+	scanf("%d",&n1);
+	printf("Enter the second number:");
+	scanf("%d",&n2);
+	if (n2==0){
+		printf("Error! division is not possible");
+	}
+	else{
+		quotient=n1/n2;
+		printf("Division of two numbers =%f",quotient);
+	}
+	return 0;
+}
+
+output:
+Enter the first number:4
+Enter the second number:2
+Division of two numbers =2.000000
