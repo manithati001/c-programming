@@ -1,0 +1,27 @@
+// c program to find the quotient and remainder
+
+#include<stdio.h>
+int main(){
+	int dividend,divisor;
+	float quotient,remainder;
+	printf("Enter the dividend value:");
+	scanf("%d",&dividend);
+	printf("Enter the divisor value:");
+	scanf("%d",&divisor);
+	if(divisor==0){
+		printf("Error! cant find quotient and remainder");
+	}
+	else{
+		quotient=(float)dividend/divisor;
+		remainder=dividend%divisor;
+		printf("Quotient = %.2f\n",quotient);
+		printf("Remainder = %f",remainder);
+	}
+	return 0;
+}
+
+output:
+Enter the dividend value:22
+Enter the divisor value:7
+Quotient = 3.14
+Remainder = 1.000000
