@@ -1,0 +1,11 @@
+// c program to find the div of two numbers
+
+#include<stdio.h>
+int main(){
+	int n1=10,n2=2;
+	printf("Div of two numbers =%d",n1/n2);
+	return 0;
+}
+
+output:
+Div of two numbers =5
